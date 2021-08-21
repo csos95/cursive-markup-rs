@@ -21,7 +21,8 @@ cursive_core = "0.2"
 unicode-width = "0.1"
 
 [dependencies.html2text]
-version = "0.2"
+# version = "0.2"
+git = "https://github.com/csos95/rust-html2text.git"
 optional = true
 
 [features]
